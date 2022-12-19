@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+:root{
+    --primary:#f59e0b;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--primary);
+}
+
+.a{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500; 
+    background-color:red;
+    color: yellow;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#txt-input {
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20vh;
+    width: 50vh;
+    background-color: var(--primary);
+    border-radius: 10px;
+    border-color:beige;
+}
+
+::placeholder{
+    text-align: center;
+    font-size: larger;
+    color:black;
+    padding-top: 40px;
+}
+
+.b{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Rowdies', cursive; 
+    
+    color:red;
+    padding: 5px;
+    margin-top: px;
+}
+
+#btn-translate{
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color:red;
+    color:#F6C616;
+    border-radius: 3px;
+    font-size:large;
+    
+}
+
+
+#txt-output{
+    width: 20vh;
+    height: 10vh;
+    border: 1px black solid;
+    margin-top: 2rem;
+}
+
+
+
+#txt-output{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    font-family: 'Rowdies', cursive ;
+    color: black;
+    width: 80%;
+    height: 10vh;
+    text-align: center;
+    border-color: white;
+    border-bottom-right-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: 30px;
+}
+
+
